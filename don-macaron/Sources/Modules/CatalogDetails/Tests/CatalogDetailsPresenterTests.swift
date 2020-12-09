@@ -8,7 +8,7 @@
 import Quick
 import Nimble
 
-@testable import YARCH
+@testable import Pods_don_macaron
 
 class CatalogDetailsPresenterTests: QuickSpec {
 	override func spec() {

@@ -9,19 +9,15 @@
 /* Begin PBXBuildFile section */
 		0092BCC1B2C3BBC08C699550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7E767690994453CF743D4A /* LaunchScreen.storyboard */; };
 		0490BF5F94D3F4435240AF89 /* CatalogServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A121F29EA578961B6340B20 /* CatalogServiceTests.swift */; };
-		05F371905B948D562D82E230 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C68D30A16C27CF3F02F04F3 /* Contacts.framework */; };
 		08BC7435C66BA4DAEE3BB787 /* CatalogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D8B9D893C275279610A29A /* CatalogModel.swift */; };
-		090136C934712E0B44960E2C /* MyFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D26D42E201A6ED7243421F22 /* MyFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		124496531A107FBB2143E682 /* CoinSnapshotFullResponseModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124CB512E9BD5E80E3A369E7 /* CoinSnapshotFullResponseModelTests.swift */; };
 		1AB1AD2DFD960E880A4050DD /* CatalogDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4A6D0E5A1B6132DC4D3B5E /* CatalogDetailsView.swift */; };
 		2126E998E29A26AFA22C0F49 /* CatalogDetailsCoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE5606695F7EFC5EDC25454 /* CatalogDetailsCoinImageView.swift */; };
 		212BAF95684234BCFB5CBC67 /* CatalogDetailsProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C0BD76B26C1872AAC6F726 /* CatalogDetailsProviderTests.swift */; };
 		264477A7F94401B42518290B /* CatalogBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230534BEDFD7F82F07C4A208 /* CatalogBuilderTests.swift */; };
 		28CF4D1A9F6E04AF8B83352F /* CatalogDetailsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C36D716CFD3CAF80F741EA /* CatalogDetailsBuilder.swift */; };
-		28EB613137812EA4BF8815E5 /* Pods_don_macaronTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF68A7AF260F8E1638E2773 /* Pods_don_macaronTests.framework */; };
 		2927427A095F28EDB8699B15 /* CatalogDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D057EBC24811C6375A83A2F0 /* CatalogDetailsCell.swift */; };
 		2D8F981FFF3BD435BAF8D80B /* UITableViewExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F57BA1226B34811C4C3CC3E /* UITableViewExtention.swift */; };
-		310066952390973E144D40A0 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DC9612F5AB7D5C11E76994 /* libc++.tbd */; };
 		314E8003F352FF3B993B9570 /* CatalogDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE35BEFE239CDAEDBD59EE3 /* CatalogDataStore.swift */; };
 		31A4509234B85CAD5250F0FD /* CatalogDetailsTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB81D89AED4E736882A8DE3E /* CatalogDetailsTableDelegate.swift */; };
 		3293BE251688BC3BF7A6D62B /* CatalogTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0AD8418573CE256FBA2DE0 /* CatalogTableDataSource.swift */; };
@@ -42,12 +38,10 @@
 		62F3C69314A5A97A99779992 /* CatalogEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607955981D454D36D3BF7EF2 /* CatalogEmptyView.swift */; };
 		636F15900724E599821DE67B /* CatalogPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7A44268B3465793EAED902 /* CatalogPresenterTests.swift */; };
 		64F633981BDD61C9484D718A /* CatalogDetailsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA97CFA9861DA5352937E6C7 /* CatalogDetailsHeaderView.swift */; };
-		662A9D022F18966D73F7F83C /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26D42E201A6ED7243421F22 /* MyFramework.framework */; };
 		68F3ABA65EEC0750F72FA37B /* CatalogBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEF2BAC115410B21911813A /* CatalogBuilder.swift */; };
 		695663BB7D2D17E4759162F8 /* CatalogDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810C3A8CB23905374B781FEC /* CatalogDetailsViewController.swift */; };
 		6B5C302303063917C72AF5C7 /* CatalogModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D765DBE9AB784727F7EC12FE /* CatalogModelTests.swift */; };
 		6CB58FD03FC35BAE43BEA184 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B1AEB6736C8D8B1AF0A7CD /* ArrayExtension.swift */; };
-		6D1190B35BECC7BD6A435F87 /* don-macaronTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B49B7E29FB0259A5AD43D8 /* don-macaronTests.framework */; };
 		712B7F0FE016BBAA4AAEDE30 /* ImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513F51D053ED609D5724D8FF /* ImageProvider.swift */; };
 		78A1D51C4072FF99FF0CE7A3 /* APIClientFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC13C69BDE55241C2E887C5 /* APIClientFactory.swift */; };
 		7A551DDF7E438730DAD03335 /* CatalogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3474ED8C07F042C8BDCB274F /* CatalogService.swift */; };
@@ -58,12 +52,12 @@
 		87CDC8456044673E140C1B4B /* CatalogDetailsDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB896FE7F26809EB2C3828 /* CatalogDetailsDataStore.swift */; };
 		8E62CE539CB3E041E42EA546 /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FFF35B51A05EF55ACCCF22 /* CatalogView.swift */; };
 		8F0DF435B90B4CB20DBCB7DA /* CatalogDetailsInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCDB0FF6D3AF6FBC09C285F /* CatalogDetailsInteractorTests.swift */; };
+		904BD7C84AB0EEE6928956F3 /* Pods_don_macaron.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF7BE8BDD6280C9BEC1D1FA /* Pods_don_macaron.framework */; };
 		9061B037D6A068735A205756 /* CatalogTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1C8970A67C15C26F1A1C7 /* CatalogTableDelegate.swift */; };
 		923CC70CB41F60F374259990 /* CatalogViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F506E7BD4D1C7DC3476932 /* CatalogViewModelTests.swift */; };
 		92C7C5A23F4B77D46FD2B946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5FFC7EAB035228C7D76B176 /* Assets.xcassets */; };
 		9E70480CEF41DBE0F79EF3B1 /* CatalogDataFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0917DA78E28759B4A56617BE /* CatalogDataFlow.swift */; };
 		A161B90EBFE09910E6370074 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57DFE062F751B5EB45BA64D /* ResponseModel.swift */; };
-		A3CBED7BA36FB435E55884A8 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1EBC2AF4E461E9BE39E7F0A /* Alamofire.framework */; };
 		A4E7BB565E6EEB773D7E80B3 /* CatalogDetailsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1EB29EF38890264616EB5E /* CatalogDetailsViewControllerTests.swift */; };
 		AC5412CA292D0109ACF00BAC /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36C0A07BBB58D86896BCEFE /* StringExtension.swift */; };
 		ACBE1EA002464360AE5DEA8B /* CatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D43EACF13CAB5D62747CD10 /* CatalogViewController.swift */; };
@@ -80,9 +74,7 @@
 		D32198431907B7369E8E77BC /* HTTPAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CCFFCE9A3EDEAEB43D9C0C /* HTTPAPIClient.swift */; };
 		D34C5F5305711A2F72E27C7B /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A90AA60BA096C9F13E416C9 /* Result.swift */; };
 		D41E89D16433DC73EDAA6665 /* LoadingTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D64FA3EA71C97A932BFB848 /* LoadingTableViewDelegate.swift */; };
-		D8AE55D7F7F891C6F03713BA /* don-macaronTests.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F2B49B7E29FB0259A5AD43D8 /* don-macaronTests.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DF6EF4492B8EC575727DD3D0 /* CatalogDetailsTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3B7C212CF1E0C915B48C2E /* CatalogDetailsTableDataSource.swift */; };
-		E005637755BBA828A8C03EF1 /* Pods_don_macaron.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D61DC705FBB6E7D46B59779 /* Pods_don_macaron.framework */; };
 		E1A66B080299CFC69ACD9013 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E598EF64BB218A1FDF83A61E /* UIViewExtension.swift */; };
 		E3BE02EE330F8554FA20CD77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F8FE437FA04253B2178F2 /* ViewController.swift */; };
 		E635BDF29D186AB8ED1D2B9D /* CatalogErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196B1F569CB84D13B90FF743 /* CatalogErrorView.swift */; };
@@ -96,36 +88,10 @@
 		FDB97A0553FD470BF35C148E /* CatalogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A66ED3D861BC858DEB498A /* CatalogCell.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		3FBC56FA9FF6310C1EEC3335 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 826F3E024A0B76564C07B341 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4495B5982642ECC4232A6040;
-			remoteInfo = "don-macaronTests";
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		A5A4E1B85323D4D11A43E309 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				D8AE55D7F7F891C6F03713BA /* don-macaronTests.framework in Embed Frameworks */,
-				090136C934712E0B44960E2C /* MyFramework.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		0917DA78E28759B4A56617BE /* CatalogDataFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogDataFlow.swift; sourceTree = "<group>"; };
 		0A90AA60BA096C9F13E416C9 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		0B46D3154D1C8504097D1E09 /* CatalogViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewControllerTests.swift; sourceTree = "<group>"; };
-		0D61DC705FBB6E7D46B59779 /* Pods_don_macaron.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_don_macaron.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E4E3D9AED52F57AE62FAA1E /* CatalogInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogInteractorTests.swift; sourceTree = "<group>"; };
 		0F57BA1226B34811C4C3CC3E /* UITableViewExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtention.swift; sourceTree = "<group>"; };
 		1054393478FC1D9B1733A763 /* CatalogProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogProviderTests.swift; sourceTree = "<group>"; };
@@ -160,23 +126,18 @@
 		607955981D454D36D3BF7EF2 /* CatalogEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogEmptyView.swift; sourceTree = "<group>"; };
 		630EF788B61A4A66CBE26B06 /* CatalogDetailsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogDetailsProvider.swift; sourceTree = "<group>"; };
 		6508C56E53894AD7F49E68E5 /* CatalogDetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogDetailsInteractor.swift; sourceTree = "<group>"; };
-		6C50F86A492EB6BF5F13358E /* Pods-don-macaron.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-don-macaron.release.xcconfig"; path = "Target Support Files/Pods-don-macaron/Pods-don-macaron.release.xcconfig"; sourceTree = "<group>"; };
 		6CB8602A354CEA56FB535F34 /* CatalogInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogInteractor.swift; sourceTree = "<group>"; };
 		6D43EACF13CAB5D62747CD10 /* CatalogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewController.swift; sourceTree = "<group>"; };
 		6DE35BEFE239CDAEDBD59EE3 /* CatalogDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogDataStore.swift; sourceTree = "<group>"; };
 		73148D08354267694F2F4F24 /* don-macaron.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "don-macaron.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		740E4D33ED0E7885F609D41C /* Pods-don-macaronTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-don-macaronTests.release.xcconfig"; path = "Target Support Files/Pods-don-macaronTests/Pods-don-macaronTests.release.xcconfig"; sourceTree = "<group>"; };
-		767F2D9646EDD47BE281EB68 /* Pods-don-macaronTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-don-macaronTests.debug.xcconfig"; path = "Target Support Files/Pods-don-macaronTests/Pods-don-macaronTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7C68D30A16C27CF3F02F04F3 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
 		7DA1C8970A67C15C26F1A1C7 /* CatalogTableDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogTableDelegate.swift; sourceTree = "<group>"; };
 		810C3A8CB23905374B781FEC /* CatalogDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogDetailsViewController.swift; sourceTree = "<group>"; };
 		835ACE3A6FF835EE00CC6042 /* CatalogDetailsBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogDetailsBuilderTests.swift; sourceTree = "<group>"; };
+		86833B1BBE8E06E5D451358E /* Pods-don-macaron.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-don-macaron.release.xcconfig"; path = "Target Support Files/Pods-don-macaron/Pods-don-macaron.release.xcconfig"; sourceTree = "<group>"; };
 		8762DF87B5AF0A344517B248 /* CatalogDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogDetailsPresenter.swift; sourceTree = "<group>"; };
 		8D178D5611CE5C9BEDFF442C /* CoinSnapshotFullResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinSnapshotFullResponseModel.swift; sourceTree = "<group>"; };
 		8FC13C69BDE55241C2E887C5 /* APIClientFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientFactory.swift; sourceTree = "<group>"; };
-		8FF68A7AF260F8E1638E2773 /* Pods_don_macaronTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_don_macaronTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9412A3B5D90F163EFA952075 /* APIClientError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientError.swift; sourceTree = "<group>"; };
-		94CB3F87817A8360E5C80D61 /* Pods-don-macaron.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-don-macaron.debug.xcconfig"; path = "Target Support Files/Pods-don-macaron/Pods-don-macaron.debug.xcconfig"; sourceTree = "<group>"; };
 		974672260409C3C03F42448F /* LoadingSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingSectionHeaderView.swift; sourceTree = "<group>"; };
 		97FFF35B51A05EF55ACCCF22 /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
 		9BE5606695F7EFC5EDC25454 /* CatalogDetailsCoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogDetailsCoinImageView.swift; sourceTree = "<group>"; };
@@ -185,23 +146,22 @@
 		A5FFC7EAB035228C7D76B176 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABCDB0FF6D3AF6FBC09C285F /* CatalogDetailsInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogDetailsInteractorTests.swift; sourceTree = "<group>"; };
 		AE3944620B04D4644B379F8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B1EBC2AF4E461E9BE39E7F0A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
 		B49FA6A4E8C443BC7E92031E /* APIClientProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientProvider.swift; sourceTree = "<group>"; };
 		B6CCFFCE9A3EDEAEB43D9C0C /* HTTPAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPAPIClient.swift; sourceTree = "<group>"; };
 		BA7A44268B3465793EAED902 /* CatalogPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogPresenterTests.swift; sourceTree = "<group>"; };
 		BA97CFA9861DA5352937E6C7 /* CatalogDetailsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogDetailsHeaderView.swift; sourceTree = "<group>"; };
 		BB5532ED5CFEDA630919BC55 /* CatalogDetailsCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogDetailsCellViewModel.swift; sourceTree = "<group>"; };
+		BBE36B9AD2315D09451CDA0C /* Pods-don-macaron.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-don-macaron.debug.xcconfig"; path = "Target Support Files/Pods-don-macaron/Pods-don-macaron.debug.xcconfig"; sourceTree = "<group>"; };
 		BCA761937DBDEE62C5655521 /* NumberFormatterWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatterWorker.swift; sourceTree = "<group>"; };
 		C62A7104B0983E5B07FE7EB1 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		CF3B7C212CF1E0C915B48C2E /* CatalogDetailsTableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogDetailsTableDataSource.swift; sourceTree = "<group>"; };
 		D057EBC24811C6375A83A2F0 /* CatalogDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogDetailsCell.swift; sourceTree = "<group>"; };
 		D06FBE89CA910E2418A8A903 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
-		D26D42E201A6ED7243421F22 /* MyFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MyFramework.framework; path = Vendor/MyFramework.framework; sourceTree = "<group>"; };
 		D4C0BD76B26C1872AAC6F726 /* CatalogDetailsProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogDetailsProviderTests.swift; sourceTree = "<group>"; };
 		D765DBE9AB784727F7EC12FE /* CatalogModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogModelTests.swift; sourceTree = "<group>"; };
 		D8068979C56A78195830AD08 /* APIClientMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientMock.swift; sourceTree = "<group>"; };
+		DAF7BE8BDD6280C9BEC1D1FA /* Pods_don_macaron.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_don_macaron.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD523C0647D0EB81C8E148B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E0DC9612F5AB7D5C11E76994 /* libc++.tbd */ = {isa = PBXFileReference; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		E598EF64BB218A1FDF83A61E /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		E5B7097D66F3E87207A184E8 /* YARCHTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YARCHTests.swift; sourceTree = "<group>"; };
 		EB81D89AED4E736882A8DE3E /* CatalogDetailsTableDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogDetailsTableDelegate.swift; sourceTree = "<group>"; };
@@ -217,24 +177,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		43AC2F3B7AF31B826186D027 /* Frameworks */ = {
+		CAC69F03D3EAC7E80159DE21 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28EB613137812EA4BF8815E5 /* Pods_don_macaronTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAF87C0D43924B6AB55FCDB8 /* Frameworks */ = {
+		DB0967449499093E4E0F5358 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D1190B35BECC7BD6A435F87 /* don-macaronTests.framework in Frameworks */,
-				A3CBED7BA36FB435E55884A8 /* Alamofire.framework in Frameworks */,
-				662A9D022F18966D73F7F83C /* MyFramework.framework in Frameworks */,
-				05F371905B948D562D82E230 /* Contacts.framework in Frameworks */,
-				310066952390973E144D40A0 /* libc++.tbd in Frameworks */,
-				E005637755BBA828A8C03EF1 /* Pods_don_macaron.framework in Frameworks */,
+				904BD7C84AB0EEE6928956F3 /* Pods_don_macaron.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,13 +239,14 @@
 			path = Modules;
 			sourceTree = "<group>";
 		};
-		30A6BB73A22F8513A20174A5 /* Carthage */ = {
+		2C11DDDA7A08B7A8C4E6F95E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DF48B2E3B12D86C38F74BAC5 /* iOS */,
+				BBE36B9AD2315D09451CDA0C /* Pods-don-macaron.debug.xcconfig */,
+				86833B1BBE8E06E5D451358E /* Pods-don-macaron.release.xcconfig */,
 			);
-			name = Carthage;
-			path = Carthage/Build;
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		473150AAADB86D8434BDD88A /* Products */ = {
@@ -301,19 +256,6 @@
 				F2B49B7E29FB0259A5AD43D8 /* don-macaronTests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4784E9EB1DBC8C8CDFD750FE /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7C68D30A16C27CF3F02F04F3 /* Contacts.framework */,
-				E0DC9612F5AB7D5C11E76994 /* libc++.tbd */,
-				D26D42E201A6ED7243421F22 /* MyFramework.framework */,
-				30A6BB73A22F8513A20174A5 /* Carthage */,
-				0D61DC705FBB6E7D46B59779 /* Pods_don_macaron.framework */,
-				8FF68A7AF260F8E1638E2773 /* Pods_don_macaronTests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		4894AD35E2B283FE78D32355 /* Tests */ = {
@@ -340,22 +282,10 @@
 			children = (
 				A3243A137D89FACB98A7FFB1 /* don-macaron */,
 				67F6721D453AADB24B8BA986 /* don-macaronTests */,
-				4784E9EB1DBC8C8CDFD750FE /* Frameworks */,
 				473150AAADB86D8434BDD88A /* Products */,
-				6020940717B0CC020ABD6693 /* Pods */,
+				2C11DDDA7A08B7A8C4E6F95E /* Pods */,
+				B9EBD7CE29C16CFAA0739ED0 /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		6020940717B0CC020ABD6693 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				94CB3F87817A8360E5C80D61 /* Pods-don-macaron.debug.xcconfig */,
-				6C50F86A492EB6BF5F13358E /* Pods-don-macaron.release.xcconfig */,
-				767F2D9646EDD47BE281EB68 /* Pods-don-macaronTests.debug.xcconfig */,
-				740E4D33ED0E7885F609D41C /* Pods-don-macaronTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		6168A54F09307FD209CAAAD3 /* Model */ = {
@@ -466,6 +396,14 @@
 			path = "don-macaron";
 			sourceTree = "<group>";
 		};
+		B9EBD7CE29C16CFAA0739ED0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAF7BE8BDD6280C9BEC1D1FA /* Pods_don_macaron.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BE46081838AC96CE291538EE /* LoadingTableView */ = {
 			isa = PBXGroup;
 			children = (
@@ -518,14 +456,6 @@
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		DF48B2E3B12D86C38F74BAC5 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				B1EBC2AF4E461E9BE39E7F0A /* Alamofire.framework */,
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
 		EB6C1A5F39591C383AF6F54B /* Workers */ = {
 			isa = PBXGroup;
 			children = (
@@ -556,9 +486,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57E805867C8963CCDD6AC055 /* Build configuration list for PBXNativeTarget "don-macaronTests" */;
 			buildPhases = (
-				C95888D47EE8CA78EBC904EB /* [CP] Check Pods Manifest.lock */,
 				F63E4E732B60FEEBB5C2F85C /* Sources */,
-				43AC2F3B7AF31B826186D027 /* Frameworks */,
+				CAC69F03D3EAC7E80159DE21 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -573,18 +502,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71AD1C5D75FF762EBDF6D693 /* Build configuration list for PBXNativeTarget "don-macaron" */;
 			buildPhases = (
-				80B255731D6484103B381056 /* [CP] Check Pods Manifest.lock */,
+				2A620603A3739B90FEDFB5C3 /* [CP] Check Pods Manifest.lock */,
 				3111250E804A28542FC06D4F /* Sources */,
 				6AE9E3BB71BBE78FFD98F289 /* Resources */,
-				F36627F912A3447048F723F5 /* Carthage */,
-				DAF87C0D43924B6AB55FCDB8 /* Frameworks */,
-				A5A4E1B85323D4D11A43E309 /* Embed Frameworks */,
-				3E66649DAE45DE23C68B073A /* [CP] Embed Pods Frameworks */,
+				DB0967449499093E4E0F5358 /* Frameworks */,
+				CD24193ED109135733200442 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3AB76AFDAEF7074181EA95A3 /* PBXTargetDependency */,
 			);
 			name = "don-macaron";
 			productName = "don-macaron";
@@ -631,24 +557,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3E66649DAE45DE23C68B073A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-don-macaron/Pods-don-macaron-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-don-macaron/Pods-don-macaron-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-don-macaron/Pods-don-macaron-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		80B255731D6484103B381056 /* [CP] Check Pods Manifest.lock */ = {
+		2A620603A3739B90FEDFB5C3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -670,43 +579,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C95888D47EE8CA78EBC904EB /* [CP] Check Pods Manifest.lock */ = {
+		CD24193ED109135733200442 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-don-macaron/Pods-don-macaron-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-don-macaronTests-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-don-macaron/Pods-don-macaron-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-don-macaron/Pods-don-macaron-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
-		};
-		F36627F912A3447048F723F5 /* Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
-			);
-			name = Carthage;
-			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "carthage copy-frameworks\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -802,14 +690,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		3AB76AFDAEF7074181EA95A3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4495B5982642ECC4232A6040 /* don-macaronTests */;
-			targetProxy = 3FBC56FA9FF6310C1EEC3335 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
 		46F78C70238401C93712DF0E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -832,7 +712,6 @@
 /* Begin XCBuildConfiguration section */
 		3E0C3A89B92C9B48D2ED6994 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 767F2D9646EDD47BE281EB68 /* Pods-don-macaronTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -856,7 +735,6 @@
 		};
 		437D45BBC4F35844B041101F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 740E4D33ED0E7885F609D41C /* Pods-don-macaronTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -880,15 +758,10 @@
 		};
 		B5E723B1C4FEAF54457099BB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C50F86A492EB6BF5F13358E /* Pods-don-macaron.release.xcconfig */;
+			baseConfigurationReference = 86833B1BBE8E06E5D451358E /* Pods-don-macaron.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-					"\"Vendor\"",
-				);
 				INFOPLIST_FILE = "don-macaron/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -962,15 +835,10 @@
 		};
 		D1EE94470CA9B56F6834AD2A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94CB3F87817A8360E5C80D61 /* Pods-don-macaron.debug.xcconfig */;
+			baseConfigurationReference = BBE36B9AD2315D09451CDA0C /* Pods-don-macaron.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-					"\"Vendor\"",
-				);
 				INFOPLIST_FILE = "don-macaron/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (

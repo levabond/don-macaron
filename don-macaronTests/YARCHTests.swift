@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import YARCH
+@testable import Pods_don_macaron
 
 class YARCHTests: XCTestCase {
 

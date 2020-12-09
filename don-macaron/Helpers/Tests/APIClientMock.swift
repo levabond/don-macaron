@@ -1,6 +1,6 @@
 import Foundation
 
-@testable import YARCH
+@testable import Pods_don_macaron
 
 class APIClientMock<T>: APIClient {
 

@@ -9,7 +9,7 @@ import Quick
 import Nimble
 import SafariServices
 
-@testable import YARCH
+@testable import Pods_don_macaron
 
 class CatalogDetailsViewControllerTests: QuickSpec {
 	override func spec() {
