@@ -7,8 +7,6 @@ targets:
     platform: iOS
     deploymentTarget: "11.0"
     sources: [don-macaron]
-  don-macaronTests:
-    type: framework
-    platform: iOS
-    sources: [don-macaronTests]
+    depencencies:
+      - sdk: Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework
 

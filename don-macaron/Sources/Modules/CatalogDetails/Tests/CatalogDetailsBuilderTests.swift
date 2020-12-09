@@ -11,7 +11,7 @@
 import Quick
 import Nimble
 
-@testable import Pods_don_macaron
+
 
 class CatalogDetailsBuilderTests: QuickSpec {
 	override func spec() {

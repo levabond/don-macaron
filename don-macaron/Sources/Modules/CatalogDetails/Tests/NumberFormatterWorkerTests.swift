@@ -5,7 +5,7 @@
 import Quick
 import Nimble
 
-@testable import Pods_don_macaron
+
 
 class NumberFormatterWorkerTests: QuickSpec {
 
