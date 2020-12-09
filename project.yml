@@ -1,0 +1,20 @@
+name: don-macaron
+options:
+  bundleIdPrefix: com.myapp
+targets:
+  don-macaron:
+    type: application
+    platform: iOS
+    deploymentTarget: "11.0"
+    sources: [don-macaron]
+    dependencies:
+      - target: don-macaronTests
+      - carthage: Alamofire
+      - framework: Vendor/MyFramework.framework
+      - sdk: Contacts.framework
+      - sdk: libc++.tbd
+  don-macaronTests:
+    type: framework
+    platform: iOS
+    sources: [don-macaronTests]
+
