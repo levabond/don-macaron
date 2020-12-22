@@ -8,18 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		0092BCC1B2C3BBC08C699550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7E767690994453CF743D4A /* LaunchScreen.storyboard */; };
+		0350204EA66BF9F05D58FC54 /* HomeDataFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FE3541ADB943A951507506 /* HomeDataFlow.swift */; };
 		0490BF5F94D3F4435240AF89 /* CatalogServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A121F29EA578961B6340B20 /* CatalogServiceTests.swift */; };
 		08BC7435C66BA4DAEE3BB787 /* CatalogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D8B9D893C275279610A29A /* CatalogModel.swift */; };
+		0F26D7E3E36F3CD0E6F7E607 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4E48250F732F53839DE44E /* HomePresenter.swift */; };
 		124496531A107FBB2143E682 /* CoinSnapshotFullResponseModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124CB512E9BD5E80E3A369E7 /* CoinSnapshotFullResponseModelTests.swift */; };
 		1AB1AD2DFD960E880A4050DD /* CatalogDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4A6D0E5A1B6132DC4D3B5E /* CatalogDetailsView.swift */; };
 		2126E998E29A26AFA22C0F49 /* CatalogDetailsCoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE5606695F7EFC5EDC25454 /* CatalogDetailsCoinImageView.swift */; };
 		212BAF95684234BCFB5CBC67 /* CatalogDetailsProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C0BD76B26C1872AAC6F726 /* CatalogDetailsProviderTests.swift */; };
+		227A381F38ED33E24DBED561 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD45184AB049CD8413FBC8B5 /* HomeViewController.swift */; };
 		264477A7F94401B42518290B /* CatalogBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230534BEDFD7F82F07C4A208 /* CatalogBuilderTests.swift */; };
 		28CF4D1A9F6E04AF8B83352F /* CatalogDetailsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C36D716CFD3CAF80F741EA /* CatalogDetailsBuilder.swift */; };
 		2927427A095F28EDB8699B15 /* CatalogDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D057EBC24811C6375A83A2F0 /* CatalogDetailsCell.swift */; };
 		2D8F981FFF3BD435BAF8D80B /* UITableViewExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F57BA1226B34811C4C3CC3E /* UITableViewExtention.swift */; };
+		2F0E3C6BD6BB5C3C4F429D94 /* HomeDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159AA5588E0DE5B40D29EE96 /* HomeDataStore.swift */; };
 		314E8003F352FF3B993B9570 /* CatalogDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE35BEFE239CDAEDBD59EE3 /* CatalogDataStore.swift */; };
 		31A4509234B85CAD5250F0FD /* CatalogDetailsTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB81D89AED4E736882A8DE3E /* CatalogDetailsTableDelegate.swift */; };
+		321E737294DAC454E6CB3F30 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC465F4DDC58E81AB3BA734 /* HomeInteractor.swift */; };
 		3293BE251688BC3BF7A6D62B /* CatalogTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0AD8418573CE256FBA2DE0 /* CatalogTableDataSource.swift */; };
 		3F5D8BD1685FF40DAE740FD8 /* CatalogProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1054393478FC1D9B1733A763 /* CatalogProviderTests.swift */; };
 		40D667F98CA73FA3E7A5F64B /* CatalogDetailsServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F188E17C282907E31FD76E3E /* CatalogDetailsServiceTests.swift */; };
@@ -50,12 +55,14 @@
 		845C468D41DE74EDC3643B4F /* CatalogDetailsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630EF788B61A4A66CBE26B06 /* CatalogDetailsProvider.swift */; };
 		87231C5FC3A73DEA9D72812B /* APIClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9412A3B5D90F163EFA952075 /* APIClientError.swift */; };
 		87CDC8456044673E140C1B4B /* CatalogDetailsDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB896FE7F26809EB2C3828 /* CatalogDetailsDataStore.swift */; };
+		8D69ABE1DCEBA16905747D58 /* HomeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE4B9A5711609B00458D824 /* HomeProvider.swift */; };
 		8E62CE539CB3E041E42EA546 /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FFF35B51A05EF55ACCCF22 /* CatalogView.swift */; };
 		8F0DF435B90B4CB20DBCB7DA /* CatalogDetailsInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCDB0FF6D3AF6FBC09C285F /* CatalogDetailsInteractorTests.swift */; };
 		9061B037D6A068735A205756 /* CatalogTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1C8970A67C15C26F1A1C7 /* CatalogTableDelegate.swift */; };
 		923CC70CB41F60F374259990 /* CatalogViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F506E7BD4D1C7DC3476932 /* CatalogViewModelTests.swift */; };
 		92C7C5A23F4B77D46FD2B946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5FFC7EAB035228C7D76B176 /* Assets.xcassets */; };
 		9E70480CEF41DBE0F79EF3B1 /* CatalogDataFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0917DA78E28759B4A56617BE /* CatalogDataFlow.swift */; };
+		9F728401188E3C14F7806E3A /* HomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7212FC1B8BEC13945732D292 /* HomeBuilder.swift */; };
 		A161B90EBFE09910E6370074 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57DFE062F751B5EB45BA64D /* ResponseModel.swift */; };
 		A4E7BB565E6EEB773D7E80B3 /* CatalogDetailsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1EB29EF38890264616EB5E /* CatalogDetailsViewControllerTests.swift */; };
 		AC5412CA292D0109ACF00BAC /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36C0A07BBB58D86896BCEFE /* StringExtension.swift */; };
@@ -64,6 +71,7 @@
 		AF52F366BCA1877483532F64 /* LoadingTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D05885EE345409F013ADDD /* LoadingTableViewDataSource.swift */; };
 		B11AE2BEADA640644451A798 /* LoadingSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974672260409C3C03F42448F /* LoadingSectionHeaderView.swift */; };
 		B79EDB621A4959CB1714E53B /* APIClientMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8068979C56A78195830AD08 /* APIClientMock.swift */; };
+		BCC892F3D3A587ADF583F8F7 /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCD6C48C0C65DA542A50D31 /* HomeService.swift */; };
 		C3F0BF0EA5D1697CC0CC328E /* UniqueIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BC132F4F2FFAC2E8B7974D /* UniqueIdentifiable.swift */; };
 		C6A76582EE732D5B5985DCFD /* CatalogInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB8602A354CEA56FB535F34 /* CatalogInteractor.swift */; };
 		CE0C3EA57809A6CC6839A3A7 /* CatalogPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3F9E45FFB33234363C79D2 /* CatalogPresenter.swift */; };
@@ -72,6 +80,7 @@
 		D32198431907B7369E8E77BC /* HTTPAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CCFFCE9A3EDEAEB43D9C0C /* HTTPAPIClient.swift */; };
 		D34C5F5305711A2F72E27C7B /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A90AA60BA096C9F13E416C9 /* Result.swift */; };
 		D41E89D16433DC73EDAA6665 /* LoadingTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D64FA3EA71C97A932BFB848 /* LoadingTableViewDelegate.swift */; };
+		DE7EAEE89F80F4FCB1A27B74 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4202B9920E20F151740457D /* HomeView.swift */; };
 		DF6EF4492B8EC575727DD3D0 /* CatalogDetailsTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3B7C212CF1E0C915B48C2E /* CatalogDetailsTableDataSource.swift */; };
 		E1A66B080299CFC69ACD9013 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E598EF64BB218A1FDF83A61E /* UIViewExtension.swift */; };
 		E3BE02EE330F8554FA20CD77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F8FE437FA04253B2178F2 /* ViewController.swift */; };
@@ -80,6 +89,7 @@
 		E8B64D9F71BE25360DD06B89 /* CatalogDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8762DF87B5AF0A344517B248 /* CatalogDetailsPresenter.swift */; };
 		E9B0FE7CF0AAB8F671FD6023 /* CatalogDetailsDataFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E56724511C39D58B641A39 /* CatalogDetailsDataFlow.swift */; };
 		F077EBDC62FBE0D64B5FEF18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD523C0647D0EB81C8E148B /* AppDelegate.swift */; };
+		F257144DE12BB45ACEF913EE /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308919C131B39ADFBE11DCF7 /* HomeModel.swift */; };
 		F35DEF837D1E28F0E8028EF3 /* CatalogInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E3D9AED52F57AE62FAA1E /* CatalogInteractorTests.swift */; };
 		F371FCAAF3C3F5518704D40A /* libPods-don-macaron.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E75A634877A332D6376560C8 /* libPods-don-macaron.a */; };
 		F613E1E0FC43E4E80D42D465 /* CatalogDetailsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C62F1CB9DE08262D07D7FB /* CatalogDetailsService.swift */; };
@@ -95,6 +105,7 @@
 		0F57BA1226B34811C4C3CC3E /* UITableViewExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtention.swift; sourceTree = "<group>"; };
 		1054393478FC1D9B1733A763 /* CatalogProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogProviderTests.swift; sourceTree = "<group>"; };
 		124CB512E9BD5E80E3A369E7 /* CoinSnapshotFullResponseModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinSnapshotFullResponseModelTests.swift; sourceTree = "<group>"; };
+		159AA5588E0DE5B40D29EE96 /* HomeDataStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeDataStore.swift; sourceTree = "<group>"; };
 		196B1F569CB84D13B90FF743 /* CatalogErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogErrorView.swift; sourceTree = "<group>"; };
 		1A3F9E45FFB33234363C79D2 /* CatalogPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogPresenter.swift; sourceTree = "<group>"; };
 		1A9313D7E88D482B5B961515 /* Pods-don-macaron.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-don-macaron.debug.xcconfig"; path = "Target Support Files/Pods-don-macaron/Pods-don-macaron.debug.xcconfig"; sourceTree = "<group>"; };
@@ -111,9 +122,12 @@
 		2A121F29EA578961B6340B20 /* CatalogServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogServiceTests.swift; sourceTree = "<group>"; };
 		2BBDE0CCAF3D0C5FA5F61F94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D0E1466AE04B85FBA5044BF /* CatalogProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogProvider.swift; sourceTree = "<group>"; };
+		2E4E48250F732F53839DE44E /* HomePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		2F0AD8418573CE256FBA2DE0 /* CatalogTableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogTableDataSource.swift; sourceTree = "<group>"; };
+		308919C131B39ADFBE11DCF7 /* HomeModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		3474ED8C07F042C8BDCB274F /* CatalogService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogService.swift; sourceTree = "<group>"; };
 		38D8B9D893C275279610A29A /* CatalogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogModel.swift; sourceTree = "<group>"; };
+		3DC465F4DDC58E81AB3BA734 /* HomeInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
 		4473945E4CD1BA0A302AE9C8 /* LoadingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingTableViewCell.swift; sourceTree = "<group>"; };
 		4ABD89D725EE1AFE34D04D8A /* CoinSnapshotFullViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinSnapshotFullViewModel.swift; sourceTree = "<group>"; };
 		4AEF2BAC115410B21911813A /* CatalogBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogBuilder.swift; sourceTree = "<group>"; };
@@ -126,9 +140,11 @@
 		630EF788B61A4A66CBE26B06 /* CatalogDetailsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogDetailsProvider.swift; sourceTree = "<group>"; };
 		6508C56E53894AD7F49E68E5 /* CatalogDetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogDetailsInteractor.swift; sourceTree = "<group>"; };
 		6CB8602A354CEA56FB535F34 /* CatalogInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogInteractor.swift; sourceTree = "<group>"; };
+		6CCD6C48C0C65DA542A50D31 /* HomeService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
 		6D43EACF13CAB5D62747CD10 /* CatalogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewController.swift; sourceTree = "<group>"; };
 		6DE35BEFE239CDAEDBD59EE3 /* CatalogDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogDataStore.swift; sourceTree = "<group>"; };
-		73148D08354267694F2F4F24 /* don-macaron.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "don-macaron.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7212FC1B8BEC13945732D292 /* HomeBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeBuilder.swift; sourceTree = "<group>"; };
+		73148D08354267694F2F4F24 /* don-macaron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "don-macaron.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA1C8970A67C15C26F1A1C7 /* CatalogTableDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogTableDelegate.swift; sourceTree = "<group>"; };
 		810C3A8CB23905374B781FEC /* CatalogDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogDetailsViewController.swift; sourceTree = "<group>"; };
 		835ACE3A6FF835EE00CC6042 /* CatalogDetailsBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogDetailsBuilderTests.swift; sourceTree = "<group>"; };
@@ -144,6 +160,7 @@
 		A5FFC7EAB035228C7D76B176 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABCDB0FF6D3AF6FBC09C285F /* CatalogDetailsInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogDetailsInteractorTests.swift; sourceTree = "<group>"; };
 		AE3944620B04D4644B379F8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEE4B9A5711609B00458D824 /* HomeProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeProvider.swift; sourceTree = "<group>"; };
 		B49FA6A4E8C443BC7E92031E /* APIClientProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientProvider.swift; sourceTree = "<group>"; };
 		B6CCFFCE9A3EDEAEB43D9C0C /* HTTPAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPAPIClient.swift; sourceTree = "<group>"; };
 		BA7A44268B3465793EAED902 /* CatalogPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogPresenterTests.swift; sourceTree = "<group>"; };
@@ -154,12 +171,14 @@
 		CF3B7C212CF1E0C915B48C2E /* CatalogDetailsTableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogDetailsTableDataSource.swift; sourceTree = "<group>"; };
 		D057EBC24811C6375A83A2F0 /* CatalogDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogDetailsCell.swift; sourceTree = "<group>"; };
 		D06FBE89CA910E2418A8A903 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		D4202B9920E20F151740457D /* HomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D4C0BD76B26C1872AAC6F726 /* CatalogDetailsProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogDetailsProviderTests.swift; sourceTree = "<group>"; };
 		D765DBE9AB784727F7EC12FE /* CatalogModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogModelTests.swift; sourceTree = "<group>"; };
 		D8068979C56A78195830AD08 /* APIClientMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientMock.swift; sourceTree = "<group>"; };
 		DCD523C0647D0EB81C8E148B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E598EF64BB218A1FDF83A61E /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		E75A634877A332D6376560C8 /* libPods-don-macaron.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-don-macaron.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9FE3541ADB943A951507506 /* HomeDataFlow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeDataFlow.swift; sourceTree = "<group>"; };
 		EACE0031EE8497C042A78B7F /* Pods-don-macaron.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-don-macaron.release.xcconfig"; path = "Target Support Files/Pods-don-macaron/Pods-don-macaron.release.xcconfig"; sourceTree = "<group>"; };
 		EB81D89AED4E736882A8DE3E /* CatalogDetailsTableDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogDetailsTableDelegate.swift; sourceTree = "<group>"; };
 		F188E17C282907E31FD76E3E /* CatalogDetailsServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogDetailsServiceTests.swift; sourceTree = "<group>"; };
@@ -170,6 +189,7 @@
 		F5C36D716CFD3CAF80F741EA /* CatalogDetailsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogDetailsBuilder.swift; sourceTree = "<group>"; };
 		F939629036C12748075798B3 /* CatalogDetailsPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogDetailsPresenterTests.swift; sourceTree = "<group>"; };
 		FA1EB29EF38890264616EB5E /* CatalogDetailsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogDetailsViewControllerTests.swift; sourceTree = "<group>"; };
+		FD45184AB049CD8413FBC8B5 /* HomeViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,8 +244,17 @@
 			children = (
 				6BF3D6C9B697CBE8560DFE60 /* Catalog */,
 				89ADD89A965D8A84F1F09C82 /* CatalogDetails */,
+				E41B12DA3BB3FE27B8026267 /* Home */,
 			);
 			path = Modules;
+			sourceTree = "<group>";
+		};
+		46CB6A36B1F873C8DF3D41EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				308919C131B39ADFBE11DCF7 /* HomeModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		473150AAADB86D8434BDD88A /* Products */ = {
@@ -372,6 +401,16 @@
 			path = "don-macaron";
 			sourceTree = "<group>";
 		};
+		BC8E7E0F82E04A81EC0F68CC /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				AEE4B9A5711609B00458D824 /* HomeProvider.swift */,
+				159AA5588E0DE5B40D29EE96 /* HomeDataStore.swift */,
+				6CCD6C48C0C65DA542A50D31 /* HomeService.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
 		BE46081838AC96CE291538EE /* LoadingTableView */ = {
 			isa = PBXGroup;
 			children = (
@@ -424,6 +463,21 @@
 			path = Tests;
 			sourceTree = "<group>";
 		};
+		E41B12DA3BB3FE27B8026267 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7212FC1B8BEC13945732D292 /* HomeBuilder.swift */,
+				FD45184AB049CD8413FBC8B5 /* HomeViewController.swift */,
+				3DC465F4DDC58E81AB3BA734 /* HomeInteractor.swift */,
+				2E4E48250F732F53839DE44E /* HomePresenter.swift */,
+				E9FE3541ADB943A951507506 /* HomeDataFlow.swift */,
+				46CB6A36B1F873C8DF3D41EC /* Model */,
+				BC8E7E0F82E04A81EC0F68CC /* Provider */,
+				F933338482F132C7FA0BC63E /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		EB6C1A5F39591C383AF6F54B /* Workers */ = {
 			isa = PBXGroup;
 			children = (
@@ -453,8 +507,15 @@
 				1A9313D7E88D482B5B961515 /* Pods-don-macaron.debug.xcconfig */,
 				EACE0031EE8497C042A78B7F /* Pods-don-macaron.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F933338482F132C7FA0BC63E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D4202B9920E20F151740457D /* HomeView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -491,6 +552,7 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				en,
 				Base,
 			);
 			mainGroup = 593812512F5480605EC8BEB3;
@@ -620,6 +682,16 @@
 				E1A66B080299CFC69ACD9013 /* UIViewExtension.swift in Sources */,
 				C3F0BF0EA5D1697CC0CC328E /* UniqueIdentifiable.swift in Sources */,
 				E3BE02EE330F8554FA20CD77 /* ViewController.swift in Sources */,
+				9F728401188E3C14F7806E3A /* HomeBuilder.swift in Sources */,
+				227A381F38ED33E24DBED561 /* HomeViewController.swift in Sources */,
+				321E737294DAC454E6CB3F30 /* HomeInteractor.swift in Sources */,
+				0F26D7E3E36F3CD0E6F7E607 /* HomePresenter.swift in Sources */,
+				0350204EA66BF9F05D58FC54 /* HomeDataFlow.swift in Sources */,
+				F257144DE12BB45ACEF913EE /* HomeModel.swift in Sources */,
+				8D69ABE1DCEBA16905747D58 /* HomeProvider.swift in Sources */,
+				2F0E3C6BD6BB5C3C4F429D94 /* HomeDataStore.swift in Sources */,
+				BCC892F3D3A587ADF583F8F7 /* HomeService.swift in Sources */,
+				DE7EAEE89F80F4FCB1A27B74 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,7 +731,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.myapp.don-macaron";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -712,6 +784,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -736,7 +809,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.myapp.don-macaron";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -783,6 +856,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
